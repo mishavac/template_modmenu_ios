@@ -1,0 +1,10 @@
+Package: jayce
+Name: Jayce - Mod
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Menu Desing - Made by Jayce
+Maintainer: Jayce
+Author: Jayce
+Section: Tweaks
+Homepage: 
