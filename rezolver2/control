@@ -1,0 +1,10 @@
+Package: com.free.rezolver
+Name: Standoff2 Mod Menu
+Depends: mobilesubstrate
+Version: 0.18.5
+Architecture: iphoneos-arm
+Description: Standoff2 Mod Menu by Rezolver!
+Maintainer: Rezolver
+Author: Rezolver
+Section: Tweaks
+Homepage: https://t.me/rawe_tap
