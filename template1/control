@@ -1,0 +1,10 @@
+Package: com.yourname.template
+Name: So2 Mod Menu
+Depends: mobilesubstrate
+Version: 0.16.6
+Architecture: iphoneos-arm
+Description: So2 Mod Menu by Yourname!
+Maintainer: Yourname
+Author: Yourname
+Section: Tweaks
+Homepage: https://t.me/tweakdev
