@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "inlineSourceMap": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "imgui-js": [ ".." ],
+      "imgui-js/*": [ "../*" ]
+    }
+  },
+  "files": [
+    "main.ts",
+    "imgui_impl.ts"
+  ]
+}
