@@ -1,0 +1,10 @@
+Package: hudware
+Name: Hudware Hack
+Depends: mobilesubstrate
+Version: 0.19.0
+Architecture: iphoneos-arm
+Description: Hudware By Jayce Team
+Maintainer: Hudware Team
+Author: Hudware Team
+Section: Tweaks
+Homepage: https://t.me/hudware
