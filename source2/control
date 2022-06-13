@@ -1,0 +1,10 @@
+Package: jayce
+Name: Standoff2 Mod Menu
+Depends: mobilesubstrate
+Version: 0.19.0
+Architecture: iphoneos-arm
+Description: Standoff2 Mod Menu by Jayce!
+Maintainer: Jayce
+Author: Jayce
+Section: Tweaks
+Homepage: https://t.me/hudware
