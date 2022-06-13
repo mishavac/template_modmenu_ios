@@ -1,0 +1,10 @@
+Package: melon
+Name: Standoff2 Mod Menu
+Depends: mobilesubstrate
+Version: 0.19.1
+Architecture: iphoneos-arm
+Description: Standoff 2 Mod Menu by melonwer 
+Maintainer: melonwer
+Author: melonwer
+Section: Tweaks
+Homepage: https://discord.gg/melonwer
