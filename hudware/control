@@ -1,0 +1,9 @@
+Package: hudware
+Name: Hudware
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Hudware 
+Maintainer: Jayce
+Author: Jayce
+Section: Tweaks

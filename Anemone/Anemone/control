@@ -1,0 +1,10 @@
+Package: anemonehack
+Name: Anemone Hack
+Depends: mobilesubstrate
+Version: 0.17.4
+Architecture: iphoneos-arm
+Description: Anemone By Anemone Team
+Maintainer: Anemone Team
+Author: Anemone Team
+Section: Tweaks
+Homepage: https://discord.gg/qnFA9tgttX
