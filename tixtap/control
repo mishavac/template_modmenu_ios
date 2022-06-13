@@ -1,0 +1,10 @@
+Package: com.tixez.standoff2
+Name:  Mod Menu
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description:  Mod Menu by System Administrator!
+Maintainer: System Administrator
+Author: System Administrator
+Section: Tweaks
+Homepage: 
