@@ -1,0 +1,200 @@
+
+ Function: Hide Avatar 
+  Offsets: 0x1ACC1E8
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Radar Hack 
+  Offsets: 0x1C46D40
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Team Radar 
+  Offsets: 0x1A268C0
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: Fire Rate 
+  Offsets: 0x18DAF98
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: No Recoil 
+  Offsets: 0x18D9F30
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: No Camera Recoil 
+  Offsets: 0x18D8840
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Shoot Through Walls 
+  Offsets: 0x1B5C2BC
+  Bytes: 0x00F0271EC0035FD6
+----------------------------------
+ Function: Money Hack 
+  Offsets: 0x1C29934
+  Bytes: 0x00008052C0035FD6
+----------------------------------
+ Function: Friendly Fire 
+  Offsets: 0x1A1BC18
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: No Drop 
+  Offsets: 0x1A440D0 
+  Bytes: 0x200080D2C0035FD6
+----------------------------------
+ Function: Drop Knife 
+  Offsets: 0x18E0A58
+  Bytes:0x20008052C0035FD6
+----------------------------------
+ Function: God Mode 
+  Offsets: 0x19dbf58 
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: Always Respawn 
+  Offsets: 0x1bb895c 
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Arm Race Win 
+  Offsets: 0x1AC3008
+  Bytes: 0xE00180D2C0035FD6
+----------------------------------
+ Function: Jump Hack 
+  Offsets: 0x26A3220
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Long Jump 
+  Offsets: 0x1BA47CC
+  Bytes: 0x0010261EC0035FD6
+----------------------------------
+ Function: Float 
+  Offsets: 0x1A24E58
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: Plant Anywhere 
+  Offsets: 0x18C28A4, 0x18C28E0
+  Bytes: 0x200080D2C0035FD6, 0x200080D2C0035FD6
+----------------------------------
+ Function: Fast Plant 
+  Offsets: 0x18BCEA0
+  Bytes: 0xE003271EC0035FD6
+----------------------------------
+ Function: Bomb Explodes 
+  Offsets: 0x18BF3D4
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Bomb Immunity 
+  Offsets: 0x18C1A94
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Buy Anywhere 
+  Offsets: 0x1C1D3FC, 0x1C18884
+  Bytes: 0x20008052C0035FD6, 0x20008052C0035FD6
+----------------------------------
+ Function: Anti Flash 
+  Offsets: 0x18CD50C
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: HE Immunity 
+  Offsets: 0x18D0800
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: No Grenade 
+  Offsets: 0x18D1948
+  Bytes: 0xC0035FD6
+----------------------------------
+ Function: Fast Grenade 
+  Offsets: 0x18CBDD4
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: No Grenade Sounds 
+  Offsets: 0x18CBE5C
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: No Shoting Sounds 
+  Offsets: 0x189ddbc, 0x189a3e0, 0x1a7d2e8 
+  Bytes: 0xC0035FD6, 0xC0035FD6, 0xC0035FD6
+----------------------------------
+ Function: Always Statrack 
+  Offsets: 0x19471D0, 0x1AF73A8
+  Bytes: 0x20008052C0035FD6, 0x20008052C0035FD6
+----------------------------------
+ Function: Always Arcane 
+  Offsets: 0x194FD8C,0x1949200,0x1AF6754
+  Bytes: 0xC00080D2C0035FD6, 0xC00080D2C0035FD6, 0xC00080D2C0035FD6
+----------------------------------
+ Function: Move Before Timer 
+  Offsets: 0x1C27A94
+  Bytes: 0x00008052C0035FD6
+----------------------------------
+ Function: Don't return to spawn 
+  Offsets: 0x1C1ED60
+  Bytes: 0x00008052C0035FD6
+----------------------------------
+ Function: Medal Hack 
+  Offsets: 0x1A463E4
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function: Play MM no 5lvl 
+  Offsets: 0x194D9B4
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function:Always Respawn
+  Offsets:0x1C18F90
+  Bytes: 0x20008052C0035FD6
+----------------------------------
+ Function:One Hit Kill
+  Offsets:0x1B58F3C, 0x1B58F7C. 0x1B58F1C, 0x1B58F9C
+  Bytes: 0xE003271EC0035FD6 0xE003271EC0035FD6 0xE003271EC0035FD6 0xE003271EC0035FD6 
+==================================================================================
+HOOK(0x1C20F18, new_weap, old_weap); 
+
+HOOK(0x1C2A060, new_weapupdate, old_weapupdate); 
+
+HOOK(0x18E4DBC, new_skin, old_skin);
+
+HOOK(0x1B82EB8, get_Gloves, old_get_Gloves);
+
+HOOK(0x18C42E4, FirstLookUpdate, old_FirstLookUpdate);
+
+HOOK(0x1A1E66C, new_b, old_b);
+
+HOOK(0x1A2CF68, new_Instantiate, old_Instantiate);
+
+HOOK(0x1A22704, get_SpeedDefault, old_get_SpeedDefault);
+
+HOOK(0x1BA47CC, Jump, old_Jump);
+
+HOOK(0x1A29674, Player_Update1,Update1);
+
+HOOK(0x26A30C8, new_fly, old_fly);
+
+HOOK(0x1ACB71C, kills, old_kills);
+
+HOOK(0x1ACBBE0, Assists, old_Assists);
+
+HOOK(0x1ACC0A4, Death, old_Death);
+
+HOOK(0x1ACB36C, Score, old_Score);
+
+HOOK(0x1ACAB8C, Ping, old_Ping);
+
+HOOK(0x1ACB5A0, Mvp, old_Mvp);
+
+
+=========================ANTI BAN and Bypass Chams========================================
+patchOffset(0x1A2AEE0, "0xC0035FD6");
+patchOffset(0x1874EEC, "0xC0035FD6");
+patchOffset(0x1874F9C, "0xC0035FD6");
+patchOffset(0x18751A4, "0xC0035FD6");
+patchOffset(0x18753C0, "0xC0035FD6");
+patchOffset(0x18754A8, "0xC0035FD6");
+patchOffset(0x1875580, "0xC0035FD6");
+patchOffset(0x1875664, "0xC0035FD6");
+patchOffset(0x187574C, "0xC0035FD6");
+patchOffset(0x1875A2C, "0xC0035FD6");
+patchOffset(0x18750BC, "0xC0035FD6");
+patchOffset(0x1875B30, "0xC0035FD6");
+patchOffset(0x1875CE0, "0xC0035FD6");
+patchOffset(0x1875E38, "0xC0035FD6");
+patchOffset(0x1875FAC, "0xC0035FD6");
+patchOffset(0x18760C4, "0xC0035FD6");
+patchOffset(0x1875958, "0xC0035FD6");
+patchOffset(0x1C07690, "0xC0035FD6");
+
