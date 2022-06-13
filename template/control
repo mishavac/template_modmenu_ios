@@ -1,0 +1,10 @@
+Package: standoffhack
+Name: SO2 Mod Menu
+Depends: mobilesubstrate
+Version: 0.19.1
+Architecture: iphoneos-arm
+Description: SO2 Mod Menu by mishavac!
+Maintainer: mishavac
+Author: mishavac
+Section: Tweaks
+Homepage: https://iosgods.com/profile/1712712-mishavac/
