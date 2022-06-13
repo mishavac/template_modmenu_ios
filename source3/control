@@ -1,0 +1,10 @@
+Package: source
+Name: Source Mod Menu
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Source Mod Menu by Jayce!
+Maintainer: Jayce
+Author: Jayce
+Section: Tweaks
+Homepage: 
